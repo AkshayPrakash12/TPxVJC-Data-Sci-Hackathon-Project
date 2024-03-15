@@ -3,7 +3,7 @@
 </div>
 
 ## What the Project entailed
-Participants Were tasked to perform an EDA (Exploratory Data Analysis) on a CSV file (using the Pandas, Numpy, Seaborn and Matplotlib python libraries) containing the spotify analytics for all songs released up to 2023 and present their findings in a poster-like format of an A2-sized PDF file. We were tasked with 4 Main objectives which are:
+Participants Were tasked to perform an EDA (Exploratory Data Analysis) on a CSV file (using the Pandas, Numpy, Seaborn and Matplotlib python libraries) containing the spotify analytics for all songs released up to 2023 and present their findings in a poster-like format of an A2-sized PDF file. We were tasked with 4 Main objectives which were:
 - Data Exploration: 
 Perform a comprehensive exploratory data analysis (EDA) on the dataset, analyzing the relationships between different features and the popularity of songs. Identify which features have the strongest relationship with song’s popularity.
 - Data Problem Handling: Check for missing values, outliers, or any other data quality issues. Implement appropriate strategies to handle these problems and explain your approach.
@@ -11,7 +11,8 @@ Perform a comprehensive exploratory data analysis (EDA) on the dataset, analyzin
 - Linear Regression (Optional): Build a multiple regression model to predict the song’s popularity on the Spotify chart. Evaluate the model's performance and discuss the significance of different predictors.
 
 ## Problems we faced:
-There were many data quality issues such as the Shazam_Charts and Key columns having missing Data values, and being unable to fill them since they were object columns, not int columns, so they were complex conversions done to fix those then fill those empty values
+There were many data quality issues such as the Shazam_Charts and Key columns having missing Data values, and being unable to fill them since they were object columns, not int columns, so there were complex conversions done to fix those using pandas then fill those empty values using fillna(). Another problem we faced was the plotting itself, some graphs were difficult to plot and it was difficult choosing what data we wanted to represent and what graph we needed to use. Our design also caused issues as we had so much data, it was hard to present on just one page.
+
 
 
 
