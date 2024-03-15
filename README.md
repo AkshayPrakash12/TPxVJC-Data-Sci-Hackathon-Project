@@ -10,6 +10,8 @@ Perform a comprehensive exploratory data analysis (EDA) on the dataset, analyzin
 - Data Visualization: Create meaningful visualizations (e.g., histograms, scatter plots, heatmaps) to help understand the general distribution of song popularity, and the impact of different features on a song’s popularity. Use visualizations to communicate your findings effectively.
 - Linear Regression (Optional): Build a multiple regression model to predict the song’s popularity on the Spotify chart. Evaluate the model's performance and discuss the significance of different predictors.
 
+## Problems we faced:
+There were many data quality issues such as the Shazam_Charts and Key columns having missing Data values, and being unable to fill them since they were object columns, not int columns, so they were complex conversions done to fix those then fill those empty values
 
 
 
