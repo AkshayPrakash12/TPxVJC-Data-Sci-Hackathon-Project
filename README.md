@@ -1,6 +1,11 @@
-# TPxVJC Data Sci Hackathon Project 2024
+<div id="header" align="center">
+  <h1> TPxVJC Data Science Hackathon Project 2024</h1>
+</div>
 
 ### This Repo is what our team worked on for the TPxVJC Data Sci Hackathon 2024
+
+## What the Project entailed
+Participants Were tasked to perform an EDA (Exploratory Data Analysis) on a CSV file containing the spotify analytics for all songs released since
 
 
 ## My work
