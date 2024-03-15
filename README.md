@@ -1,5 +1,7 @@
 # TPxVJC Data Sci Hackathon Project 2024
 
+### This Repo is what our team worked on for the TPxVJC Data Sci Hackathon 2024
+
 
 ## My work
 - Linear_Regression_Code
