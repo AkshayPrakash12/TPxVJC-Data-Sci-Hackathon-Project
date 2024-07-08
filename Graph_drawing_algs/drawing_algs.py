@@ -1,10 +1,3 @@
-# My notes:
-# Extremely unoptimised code that wastes the interpreters time initialising random vars
-# returns random unused arrays that aren't labelled???
-# Graphs aren't labelled properly?
-# Memory Profiler returns memory usage OF 4 GIGABYTES (likely because of lots of unused vars)
-# 4 gb memory structs are extremely unoptimised
-# Exec time = 4 Seconds, lots of time wasted
 
 import pandas as pd
 import numpy as np
@@ -501,27 +494,4 @@ def app():
 
 
 
-tracemalloc.start()
-
 app()
-
-# displaying the memory
-print(tracemalloc.get_traced_memory())
-
-# stopping the library
-tracemalloc.stop()
-
-
-
-# record current timestamp
-start = datetime.now()
-
-# create loop-setup for testing
-app()
-
-# record loop end timestamp
-end = datetime.now()
-
-# find difference loop start and end time and display
-td = (end - start).total_seconds() * 10 ** 3
-print(f"The time of execution of above program is : {td:.03f}ms")
